@@ -1,27 +1,24 @@
 {
-  "name": "electron-quick-start",
+  "name": "abema-tv-viewer",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "AbemaTV viewer",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/henteko/abema-tv-viewer.git"
   },
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
+    "AbemaTV"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/henteko/abema-tv-viewer/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://github.com/henteko/abema-tv-viewer#readme",
   "devDependencies": {
     "electron-prebuilt": "^1.2.0"
   }
