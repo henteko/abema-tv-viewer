@@ -4,7 +4,8 @@
   "description": "AbemaTV viewer",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "release": "electron-zip-packager . --all --out bin/"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/henteko/abema-tv-viewer#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
+    "electron-packager": "^7.0.3",
+    "electron-prebuilt": "^1.2.0",
+    "electron-zip-packager": "^1.0.4"
   }
 }
